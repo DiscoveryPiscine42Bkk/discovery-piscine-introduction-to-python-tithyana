@@ -1,3 +1,3 @@
-frist_name = "Tithyana"
+first_name = "Tithyana"
 last_name = "Phea"
-print(frist_name, last_name)
+print(first_name, last_name)
