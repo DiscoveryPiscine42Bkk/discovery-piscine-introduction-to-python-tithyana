@@ -1,4 +1,6 @@
-input_password = input("").strip()
+#!/usr/bin/python3
+
+input_password = input("")
 password = "Python is awesome"
 if input_password != password:
     print("ACCESS DENIED")
