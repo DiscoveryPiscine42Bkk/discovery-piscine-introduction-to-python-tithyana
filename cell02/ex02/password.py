@@ -1,6 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
-input_password = input("")
+input_password = input()
 password = "Python is awesome"
 if input_password != password:
     print("ACCESS DENIED")
