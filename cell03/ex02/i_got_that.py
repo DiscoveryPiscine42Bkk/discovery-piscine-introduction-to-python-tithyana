@@ -5,6 +5,6 @@ def response():
     a = input("What you gotta say? : ")
     while True:
         b = input("I got that! Anything else? : ")
-        if b ==  "STOP":
+        if b == "STOP":
             break
 response()
