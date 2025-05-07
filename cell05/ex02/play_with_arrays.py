@@ -7,5 +7,5 @@ for i in range(len(a)):
     if a[i] > 5:
         b.append(a[i] + 2)
 
-print(f"Original array: {a}")
-print(f"New array: {b}")
+print(a)
+print(b)
