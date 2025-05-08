@@ -5,7 +5,7 @@ n = len(sys.argv)
 if n > 1:
     for i in range(1, n):
         if sys.argv[i].endswith("ism"):
-            print(f"{sys.argv[i]}")
+            pass
         else: 
             print(f"{sys.argv[i]}ism")
 else:
