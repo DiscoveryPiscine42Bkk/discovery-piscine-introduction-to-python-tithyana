@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-def array_of_names(input_dict):
+def array_of_names(d):
     a = []
-    for k, v in input_dict.items():
+    for k, v in d.items():
         a.append(f"{k.capitalize()} {v.capitalize()}")
     return a
-    
+
 persons = {
     "jean": "valjean",
     "grace": "hopper",
